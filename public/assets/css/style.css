@@ -1,0 +1,40 @@
+.navbar {
+    position: absolute;
+    min-height: 8vh;
+    width: 100%;
+}
+
+#chatbox {
+    min-height: 84vh;
+    max-height: 84vh;
+    width: 100%;
+    margin-top: 8vh;
+    padding-top: 1vh;
+    background-color: #121212;
+    color: white;
+    overflow-y: auto;
+}
+
+#input-area {
+    height: 8vh;
+    padding-top: 1.25vh;
+    background-color: #202020;
+    width: 100%;
+}
+
+.navbar-dark {
+    background-color: #202020 !important;
+}
+
+.message-box {
+    max-width: 90%;
+    background: rgb(0, 132, 255);
+    border-radius: 20px !important;
+}
+
+.message-box.user {
+    max-width: 90%;
+    background: #f1f1f1;
+    color: #121212;
+    border-radius: 20px !important;
+}
